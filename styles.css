@@ -1,0 +1,91 @@
+ev *{
+  padding: 0; 
+  margin: 0; 
+}
+
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.082)), url(/images/inner-space-1026452_1280.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+nav{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+
+}
+
+.navlinks{
+    display: flex;
+    gap: 20px;
+}   
+
+.navlinks li {
+    list-style: none;
+
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover{
+    color: blueviolet;
+}
+    
+.header-text {
+color:bisque;
+/* display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+width: 50%;
+gap: 20px;
+height: 100%;
+margin: auto; */
+
+}
+
+.header-text button{
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    border: 2px solid white;
+}
+
+.header-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+form{
+    background-color: white;
+    padding: 2rem 1rem;
+    border-radius: 5px;
+}
+
+input, select, button{
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+.input-field{
+padding: 0.5rem 1rem;
+}
+
+
+.input-field button {
+    background-color: red;
+    color: white;
+    border: none;
+    width: 200px;
+    height: 30px;
+}
